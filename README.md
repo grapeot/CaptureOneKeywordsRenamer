@@ -13,6 +13,8 @@ How to use the script:
 First, ensure you have the keywords exported into the JPG files.
 This could be done by going to "Export Images," tick the "Show all options," and change the Keywords drop down menu in the Metadata tab to "All."
 
+![Screenshot of how to have keywords exported.](https://github.com/grapeot/CaptureOneKeywordsRenamer/blob/master/export.jpg?raw=true)
+
 Second, copy the script into the folder you wish to rename the images.
 Run `python CaptureOneRenamer.py` in the folder.
 The script will read the IPTC tags, get new file names, and **copy** the files to new names.
